@@ -1,2 +1,3 @@
 # observer
-observer.megalit.org
+
+https://observer.megalit.org
