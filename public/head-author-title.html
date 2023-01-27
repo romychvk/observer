@@ -1,0 +1,15 @@
+<!--#if expr="$author = /.+/" -->
+<br><font size="+1"><!--#echo encoding="none" var="author" --></font>  
+<!--#endif -->
+<!--#if expr="$email = /.+\@.+/" -->
+&nbsp;&lt;<a href=mailto:<!--#echo encoding="none" var="email" -->><!--#echo encoding="none" var="email" --></a>&gt;
+<!--#endif -->
+<!--#if expr="$REQUEST_URI != /(index.html|\/\$)/" -->
+<h1 class="article-title"><!--#echo encoding="none" var="title" --></h1>
+<!--#endif -->
+<!--#if expr="$title2 = /.+/" -->
+<!-- <font size=+1><b> -->
+  <h2 class="article-subtitle"><!--#echo encoding="none" var="title2" --></h2>
+<!-- </b></font><br> -->
+
+<!--#endif -->

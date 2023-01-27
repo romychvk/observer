@@ -1,0 +1,35 @@
+		<!--#if expr="$date_full = /.+/" -->
+		<table border="0" cellspacing="0" cellpadding="0" width="100%">
+			<tr>
+				<td>
+					<center><br>&nbsp;<br><font size="-1"><i><!--#echo encoding="none" var="date_full" --> года</i></font></center>
+				</td>
+			</tr>
+		</table>
+		<!--#endif -->
+		<!--#if expr="$issue_folder = /.+/" -->
+		<table border="0" cellspacing="0" cellpadding="0" width="100%">
+			<tr>
+				<td>
+					<div align="center green-border-bottom"><br>
+						<table width="100%" border="0" cellspacing="0" cellpadding="0" class="green-border-bottom">
+							<tr>
+								<td valign="bottom" align="center">
+									<img src="/z/treugolnik_litl_verh.gif" width="44" height="11">
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div align="right">
+						<font size="-1"><i><b><a href="/<!--#echo encoding="none" var="issue_folder" -->/" class="footer-issue-name"><!--#echo encoding="none" var="issue_name" --></a></b></i></font>
+						<a href="mailto:romych@megalit.org?subject=obsErver" class="footer-e"><img src="/z/e_for_white.gif" width=20 height=20 vspace=5 hspace=5 border=0 alt="Напишите нам" class="inline"></a><br>&nbsp;
+					</div>
+				</td>
+			</tr>
+		</table>
+		</td>
+		<!--#endif -->

@@ -1,0 +1,35 @@
+<!--#if expr="$REQUEST_URI != /^\/vsrede/" -->
+	<!--#include virtual="/footer-bottom.html" -->
+<!--#endif  -->
+
+		<!--#if expr="$REQUEST_URI != /^\/(sitemap|vsrede)\//" -->
+		<td width="10">&nbsp;</td>
+		<td width="4" bgcolor="#E5E5E5">&nbsp;</td>
+		<td width="4">&nbsp;</td>
+		<td width="110" valign="top" bgcolor="#E5E5E5"> 
+
+			<p class="issues-right_title">Авторы</p>
+			<div class="issues-right">
+				<ul>
+					<!--#include virtual="/nav-authors.html" -->
+				</ul>
+			</div>
+
+			<p class="issues-right_title">Сборники</p>
+			<div class="issues-right">
+				<ul>
+					<!--#include virtual="/nav-issues.html" -->
+				</ul>
+			</div>
+
+			<!-- Последние тексты на Обсервере -->
+			<!-- #include virtual="/observerfooter.html" -->
+
+		</td>
+		<!--#endif -->
+		
+		<td width="4" bgcolor="#006666">&nbsp;</td>
+	</tr>
+</table>
+
+<!--#include virtual="/footer-all.html" -->

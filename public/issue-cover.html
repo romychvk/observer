@@ -1,0 +1,18 @@
+<br>
+<!--#if expr="$author = /.+/" --><FONT SIZE="+1"><!--#echo encoding="none" var="author" --></FONT><br><!--#endif -->
+<h1 class="title-issue">
+<!--#if expr="$issue_folder = surrounded" -->
+  <font color="#006666">М<font color="#008040">Ы</font> </font><font color="#CC9900">О</font><font color="#008040">К</font><font color="#006666"><font color="#CC9900">РУ<font color="#006666">Ж<font color="#008040">ЕН</font>Ы</font>!</font></font>
+<!--#elif expr="$issue_folder = iz" -->
+  <font color="#CC9900">ИZ</font><font color="#006666">бр</font><font color="#008040">ан</font><font color="#006666">ное</font>
+<!--#elif expr="$issue_folder = kino" -->
+  <font color="#006666">ино</font><font color="#008040">о</font>б<font color="#008040">о</font><font color="#CC9900">зр</font>е<font color="#006666">ние</font>
+<!--#elif expr="$issue_folder = levpir" -->
+  <font color="#CC9900">ВЯ</font><font color="#006666">ЛЫЕ</font> <font color="#008040">ВА</font><font color="#000000"><font color="#008040">Р</font></font><font color="#006666">ИА<font color="#CC9900">НТ</font>Ы</font>
+<!--#elif expr="$issue_folder = neskazhu" -->
+  <font color="#CC9900">НЕ</font><font color="#008040">С</font><font color="#008040">КА</font><font color="#006666">ЖУ</font> <font color="#008040">ОБО</font><font color="#006666">ВС</font><font color="#CC9900">Ё</font><font color="#006666">М</font>
+<!--#else -->
+  <!--#echo encoding="none" var="title" -->
+<!--#endif -->
+</h1>
+<!--#if expr="$issue_description = /.+/" --><div class="issue_description"><!--#echo encoding="none" var="issue_description" --></div><!--#endif -->

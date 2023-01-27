@@ -1,0 +1,61 @@
+
+<!-- issue data start -->		
+<!--#set var="id_issue" value="9" -->
+<!--#set var="issue_name" value="Гостевая книга" -->
+<!--#set var="issue_folder" value="gb" -->
+<!--#set var="issue_description" value="" --> 
+<!-- issue data end -->		
+				
+				
+<!--#include virtual="/header.html" -->
+
+<!--#if expr="$DOCUMENT_URI != /index.html/" -->
+
+<p ALIGN="center" class="paginator">
+	<!--#include virtual="paginator.html" -->
+</p>
+
+<!--#endif -->
+
+
+<!-- <script language="javascript"> 
+function checkValues(f) {
+	if (f.name.value.length == "") {
+		alert("Пожалуйста, введите ваше имя.");
+		return false;
+	}
+	if (f.description.value.length == "") {
+		alert("Пожалуйста, введите текст вашего сообщения.");
+		return false;
+	}
+}
+</script> -->
+
+<!-- <table border="0" cellpadding="5" cellspacing="0" bgcolor="#E5E5E5">
+  <form name="form1" method="post" action="/cgi-bin/u/guestt.cgi" ONSUBMIT="return checkValues(this)">
+    <tr> 
+      <td align="center"> Имя: 
+        <input type="text" name="name" size="20">
+        &nbsp;&nbsp;E-mail:&nbsp; 
+        <input type="text" name="email" size="20">
+      </td>
+    </tr>
+    <tr> 
+      <td align="center"> 
+        <textarea name="description" rows="9" cols="50"></textarea>
+        <font size="-1">
+        <br>Два простых способа поставить ссылку:
+        <br>1)&nbsp;/observer &nbsp; &nbsp; 2)&nbsp;/observer(Текст&nbsp;ссылки)
+        </font></div>
+      </td>
+    </tr>
+    <tr> 
+      <td align="center"> 
+        <input type="submit" name="publish" value="Опубликовать">
+      </td>
+    </tr>
+    <input type="hidden" name="id_issue" value="9">
+    <input type="hidden" name="id_site" value="2">
+    <input type="hidden" name="id_parent_article" value="">
+  </form>
+</table> -->

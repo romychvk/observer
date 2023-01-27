@@ -1,0 +1,48 @@
+<table border="0" cellspacing="0" cellpadding="0" align="center" width="610" style="border-top: 4px solid #006666; border-bottom: 4px solid #006666;">
+  <tr><td>
+    <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+    <tr ALIGN="center">
+    <td width="1%" ALIGN="left"><img src="/z/stolbik.gif" width="4" height="18"></td>
+    <td width="98%" valign="bottom" class="nav-main"><font size="-1" color="#006666"><!--#include virtual="/nav-main.html" --></font></td>
+    <td width="1%" ALIGN="right"><img src="/z/stolbik.gif" width="4" height="18"></td>
+    </tr>
+    </table>
+  </td></tr>
+  </table>
+  
+  <!--#if expr="$REQUEST_URI = /^\/(index.html)*\$/" -->
+   <table width="610" border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td width="10" bgcolor="#E5E5E5" height="39" valign="bottom"><img src="/z/u_gs_b.gif" width="10" height="10"></td>
+      <td bgcolor="#E5E5E5" width=590 height=39 align="center">
+        <p class="footer-authors"><font size="-1">
+          <b>Редактор:</b>&nbsp; <a href="mailto:roman@zina.design">Ромыч ВК Еримеенко</a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/z/gp.gif" width="5" height="5" class="inline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <b>Художник:</b>&nbsp; <a href="mailto:zina@zina.design">Наталья Недоступова</a><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/z/gp.gif" width="5" height="5" class="inline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Идея проекта:</b>&nbsp; <a href="/iz/">Евгений Иz</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/z/gp.gif" width="5" height="5" class="inline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </font></p>
+      </td>
+      <td bgcolor="#E5E5E5" width="10" height="39" valign="bottom" align="right"><img src="/z/u_gs_b-r.gif" width="10" height="10"></td>
+    </tr>
+  </table>
+  <!--#endif -->
+  
+  <p class="copy"><font size="-1">© 1999-<!--#config timefmt="%Y" --><!--#echo var="DATE_LOCAL" --> <a href="https://www.zina.design/">Студия &laquo;Зина дизайн&raquo;</a></font></p>
+  </div>
+  
+  <script>
+    (function () {
+      var current = location.pathname.split('/')[1];
+      if (current === "") return;
+      var menuItems = document.querySelectorAll('.menu-item a');
+      for (var i = 0, len = menuItems.length; i < len; i++) {
+          if (menuItems[i].getAttribute("href").indexOf(current) !== -1) {
+              menuItems[i].className += " is-active";
+          }
+      }
+    })();
+  </script>
+  
+  </body>
+  </html>
+  
